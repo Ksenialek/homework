@@ -1,6 +1,7 @@
 body{
   background-color:black;
-  color:white;
+  color:black;
+  background-image: url(https://klike.net/uploads/posts/2019-11/1572612050_1.jpg);
 }
 h1{
   font size: 50px;
@@ -12,6 +13,44 @@ h3{
     font size: 40px;
 }
 p{
-  background-color:red;
-  font-size: 40; 
+
+  font-size: 50px;
+}
+ol, ul{
+  /* background-color:#0E9C82; */
+  color:red;
+  font-size: 20px;
+  list-style-type: none;
+}
+li{
+  display: inline-block;
+  margin:10px;
+}
+a{
+background-color:#0E9C82;
+  text-decoration: none;
+  padding: 10px 15px;
+  border:1px solid #E6D5E8;
+  border-radius:10px;
+}
+a:hover{
+  color:#13DBB6;
+  font-size: 25px;
+  text-decoration: none;
+}
+
+.post{
+  background-color:#73D4EB;
+  color: black;
+  border:1px;
+  border-radius:10px;
+  padding: 10px 15px;
+}
+.intro{
+   background-color:#00B0EB;
+  color: black;
+  border:1px;
+  border-radius:10px;
+  padding: 10px 15px;
+
 }
